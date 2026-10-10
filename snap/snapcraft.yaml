@@ -10,7 +10,7 @@ description: |
   adapts to your desktop environment.
 adopt-info: keepassxc
 grade: stable
-base: core22
+base: core24
 confinement: strict
 compression: lzo
 
@@ -91,7 +91,7 @@ parts:
       - libusb-1.0-0
       - libreadline8
       - libpcsclite1
-      - libminizip1
+      - libminizip1t64
       - libxtst6
       - libfreetype6
       - xclip
